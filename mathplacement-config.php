@@ -3,12 +3,8 @@ $ADODB_FETCH_MODE = ADODB_FETCH_ASSOC; // Return rows as associative arrays (ins
 $ADODB_QUOTE_FIELDNAMES = true;
 
 $username = "MUser";
-$username2 = "WebUser";
 $password = "MuserPassword";
-$password2 = "webuserPassword";
 $db = "MathCS";
-$db2 = "CentralWeb";
-$db3 = "AdmittedStudentPortal";
 $host = "Host1";
 
 $conn = NewADOConnection('mssqlnative');
